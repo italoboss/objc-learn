@@ -7,11 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Car.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        Car *car = [[Car alloc] init];
+        [car accelerate];
+        NSLog(@" Velocity: %.1f", [car velocity]);
+        NSLog(@" Passengers: %i", [car getNumberOfPassengers]);
+        
+        int num;
+        scanf("%d", &num);
+        NSLog(@"The integer is %d", num);
+        
     }
     return 0;
 }
