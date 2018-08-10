@@ -1,21 +1,21 @@
-//
-//  UserInterface.m
-//  ObjCTests
-//
-//  Created by Ada 2018 on 09/08/2018.
-//  Copyright © 2018 Ada 2018. All rights reserved.
-//
-
 #import "UserInterface.h"
+#import "UserType.m"
+#import "Bank.h"
 
 @implementation UserInterface
+UserType userType;
+Bank bank;
 
-+(void) welcome {
+-(void) welcome {
     NSLog(@"Welcome!");
 }
 
-+(void) defineUserType {
+-(void) defineUserType: (UserType)type {
     
+}
+
+-(UserType) definedUserType {
+    return userType;
 }
 
 @end

@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE18089B211E0AFB00BFBB36 /* UserType.m in Sources */ = {isa = PBXBuildFile; fileRef = BE18089A211E0AFB00BFBB36 /* UserType.m */; };
+		BE18089E211E0CBE00BFBB36 /* Bank.m in Sources */ = {isa = PBXBuildFile; fileRef = BE18089D211E0CBE00BFBB36 /* Bank.m */; };
 		BE83C839211CC7F00026F2F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83C838211CC7F00026F2F0 /* main.m */; };
-		BE83C841211CC9270026F2F0 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83C83F211CC9270026F2F0 /* Car.m */; };
 		BE83C843211CDB060026F2F0 /* BankNote.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83C842211CDB060026F2F0 /* BankNote.m */; };
 		BE83C846211CDC680026F2F0 /* UserInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83C845211CDC680026F2F0 /* UserInterface.m */; };
 /* End PBXBuildFile section */
@@ -26,10 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE18089A211E0AFB00BFBB36 /* UserType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserType.m; sourceTree = "<group>"; };
+		BE18089C211E0CBE00BFBB36 /* Bank.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bank.h; sourceTree = "<group>"; };
+		BE18089D211E0CBE00BFBB36 /* Bank.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bank.m; sourceTree = "<group>"; };
+		BE18089F211E2A0500BFBB36 /* BankDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankDelegate.h; sourceTree = "<group>"; };
 		BE83C835211CC7F00026F2F0 /* ObjCTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjCTests; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE83C838211CC7F00026F2F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BE83C83F211CC9270026F2F0 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
-		BE83C840211CC9270026F2F0 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		BE83C842211CDB060026F2F0 /* BankNote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankNote.m; sourceTree = "<group>"; };
 		BE83C844211CDC680026F2F0 /* UserInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInterface.h; sourceTree = "<group>"; };
 		BE83C845211CDC680026F2F0 /* UserInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInterface.m; sourceTree = "<group>"; };
@@ -65,12 +68,14 @@
 		BE83C837211CC7F00026F2F0 /* ObjCTests */ = {
 			isa = PBXGroup;
 			children = (
-				BE83C840211CC9270026F2F0 /* Car.h */,
-				BE83C83F211CC9270026F2F0 /* Car.m */,
 				BE83C838211CC7F00026F2F0 /* main.m */,
 				BE83C842211CDB060026F2F0 /* BankNote.m */,
 				BE83C844211CDC680026F2F0 /* UserInterface.h */,
 				BE83C845211CDC680026F2F0 /* UserInterface.m */,
+				BE18089A211E0AFB00BFBB36 /* UserType.m */,
+				BE18089C211E0CBE00BFBB36 /* Bank.h */,
+				BE18089D211E0CBE00BFBB36 /* Bank.m */,
+				BE18089F211E2A0500BFBB36 /* BankDelegate.h */,
 			);
 			path = ObjCTests;
 			sourceTree = "<group>";
@@ -132,9 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE83C843211CDB060026F2F0 /* BankNote.m in Sources */,
-				BE83C841211CC9270026F2F0 /* Car.m in Sources */,
 				BE83C846211CDC680026F2F0 /* UserInterface.m in Sources */,
+				BE18089B211E0AFB00BFBB36 /* UserType.m in Sources */,
 				BE83C839211CC7F00026F2F0 /* main.m in Sources */,
+				BE18089E211E0CBE00BFBB36 /* Bank.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
