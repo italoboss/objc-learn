@@ -11,7 +11,7 @@
 @implementation UserInterface
 
 +(void) welcome {
-    
+    NSLog(@"Welcome!");
 }
 
 +(void) defineUserType {
